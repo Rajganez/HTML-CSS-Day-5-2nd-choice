@@ -1,0 +1,35 @@
+.con{
+    display: grid; grid-template-columns:3fr 2fr 2fr 2fr ; 
+    grid-template-rows:4fr 4fr 5fr 8fr; min-height: 100vh;
+    background-color: #cad2c5; gap : 5em;
+}
+.Header{
+    display: grid ; grid-row: 1; grid-column: span 4; 
+    align-items: center; font-family: Segoe UI;
+    background-color: #2f3d46; color: white;
+}
+.Navbar{ 
+    display: grid; grid-column: 1; grid-row: span 4; border-radius: 2%;
+    background-color: #353535; color: white; margin-left: 10%;margin-bottom: 10%;
+}
+.Searchbar{
+    display: grid; grid-column: span 3; border-radius: 2%; align-items: center;
+    background-color: #353535; color: white; width: 90%; justify-content: flex-start;
+    margin-left: 5%;margin-right: 5%;padding: 3%;font-weight: lighter;
+}
+.Content1{
+    display: grid; grid-row: 3 ; grid-column: 2; border-radius: 3%;
+    background-color: #353535; color: white;
+}
+.Content2{
+    display: grid; grid-row: 3; grid-column: 3; border-radius: 3%;
+    background-color: #353535; color: white;
+}
+.Content3{
+    display: grid; grid-row: 3; grid-column: 4; border-radius: 3%;
+    background-color: #353535; color: white;margin-right: 10%;
+}
+.Textbar{
+    display: grid; grid-column: span 3; border-radius: 3%;
+    background-color: #353535; color: white;margin-right: 10%
+}
